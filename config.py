@@ -4,3 +4,6 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'sqlite:///./movies.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
+    PWD_SALT = '249y823r9v8238r9u'.encode('utf-8')
+    PWD_ITERATIONS = 100_000
+
